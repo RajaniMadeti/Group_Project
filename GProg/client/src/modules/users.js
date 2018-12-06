@@ -12,6 +12,14 @@ export class Users {
 
 	}
 
+	async activate(){
+		 await this.getUsers(); //await
+	}
+	
+	async getUsers(){
+		  await this.users.getUsers();  //await
+	}
+	
 	newUser() {
 		this.user = {
 			firstName: "",
@@ -24,12 +32,12 @@ export class Users {
 		this.showUserEditForm = true;
 	}
 
-// 	async save() {
-// 		if (this.user && this.user.firstName && this.user.lastName
-// 			&& this.user.email && this.user.password) {
-// 			await this.users.saveUser(this.user);
-// 	}
-//   }
+	async save() {
+		if (this.user && this.user.firstName && this.user.lastName
+			&& this.user.email && this.user.password) {
+			await this.users.saveUser(this.user);
+	}
+  }
 }
 
 
