@@ -8,7 +8,7 @@ export class App {
         name: 'Landing'
       },
       {
-        route:  'home',
+        route: 'home',
         moduleId: './modules/home',
         name: 'Home'
       },

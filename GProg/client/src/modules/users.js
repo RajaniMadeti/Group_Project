@@ -24,12 +24,12 @@ export class Users {
 		this.showUserEditForm = true;
 	}
 
-	async save() {
-		if (this.user && this.user.firstName && this.user.lastName
-			&& this.user.email && this.user.password) {
-			await this.users.saveUser(this.user);
-	}
-  }
+// 	async save() {
+// 		if (this.user && this.user.firstName && this.user.lastName
+// 			&& this.user.email && this.user.password) {
+// 			await this.users.saveUser(this.user);
+// 	}
+//   }
 }
 
 
