@@ -16,29 +16,19 @@
             "hash": "34812931164d8996646230bbfa17cc34"
         },
         {
-            "date": 1544070663141,
-            "name": "log/application-2018-12-05-22.log",
-            "hash": "237ae33804338162cf6202d17f1791a3"
+            "date": 1544141647609,
+            "name": "log/application-2018-12-06-18.log",
+            "hash": "34de3187e1ffcd4474607ba8ab59c337"
         },
         {
-            "date": 1544075113026,
-            "name": "log/application-2018-12-05-23.log",
-            "hash": "8478c85803a520426ceb5768bb724b5c"
+            "date": 1544144538653,
+            "name": "log/application-2018-12-06-19.log",
+            "hash": "0d5bb3fab4d23613e869aff77e02b6e2"
         },
         {
-            "date": 1544076570519,
-            "name": "log/application-2018-12-06-00.log",
-            "hash": "1f0301dc92eac1466c91cb655765b5fe"
-        },
-        {
-            "date": 1544107468838,
-            "name": "log/application-2018-12-06-08.log",
-            "hash": "3bb3dbea7087549b965332ddd9b94c30"
-        },
-        {
-            "date": 1544115047376,
-            "name": "log/application-2018-12-06-10.log",
-            "hash": "9ab8c711ad9c465072f6164fed0c20d1"
+            "date": 1544148264322,
+            "name": "log/application-2018-12-06-20.log",
+            "hash": "18fdda58df16d03edcc70d24b8af2e00"
         }
     ]
 }

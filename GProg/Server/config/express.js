@@ -10,13 +10,13 @@ var cors = require('cors');
 module.exports = function (app, config) {
 
      app.use(cors({ origin: 'http://localhost:9000' }));
-    // logger.log('info', "Loading Mongoose functionality");
-    // mongoose.Promise = bluebird;
-    // mongoose.connect(config.db);
-    // var db = mongoose.connection;
-    // db.on('error', function () {
-    //     throw new Error('unable to connect to database at ' + config.db);
-    // });
+    logger.log('info', "Loading Mongoose functionality");
+    mongoose.Promise = bluebird;
+    mongoose.connect(config.db);
+    var db = mongoose.connection;
+    db.on('error', function () {
+        throw new Error('unable to connect to database at ' + config.db);
+    });
 
     if (process.env.NODE_ENV !== 'test') {
         app.use(morgan('dev'));
