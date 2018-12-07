@@ -7,7 +7,9 @@ var config = {
         root: rootPath,
         app: { name: 'GProg' },
         port: 5000,
-        db: 'mongodb://127.0.0.1/helpMe-dev'
+        db: 'mongodb://127.0.0.1/helpMe-dev',
+        secret: "cayennedlikedhistreats"
+
 
     },
     test: {

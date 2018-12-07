@@ -39,8 +39,8 @@ module.exports = function (app, config) {
 
     app.use(express.static(config.root + '/public'));
 
-    // require('../app/models/users');
-    // require('../app/controllers/users')(app, config);
+    require('../app/models/users');
+    require('../app/controllers/users')(app, config);
 
     var models = glob.sync(config.root + '/app/models/*.js');
     models.forEach(function (model) {
